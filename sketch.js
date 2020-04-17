@@ -24,7 +24,7 @@ function setup() {
   ground = Bodies.rectangle(200,330,400,20,ground_options)
   World.add(world,ground);
 
-holder = Bodies.rectangle(200,100,200,20,holder_options);
+holder = Bodies.rectangle(200,80,200,20,holder_options);
 World.add(world,holder);
 
 var ball_options = {
